@@ -1,5 +1,6 @@
 # rate-my-neighborhood
 Create the first e-commerce website with front and back end function using HTML, CSS and PHP.
+Rate My Neighborhood exists to be a community provider where people search for relevant information about a given neighborhood.
 
 Home page:
 
