@@ -1,21 +1,29 @@
 <html>
 <head>
-    <title> Registration page </title>
+    <title> RATE MY NEIGHBORHOOD Registration page </title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link rel="stylesheet" type="text/css" href="asset/singup.css">
+    <link rel="stylesheet" type="text/css" href="register.css">
 </head>
+
     <body>
-
-
-
-<h1>Welcome Home </h1>
-  <hr>
-
-
+    <header>
+    <a href="#" class="brand">Rate My Neighborhood</a>
+    <div class="navigation">
+        <div class="navigation-items">
+            <a href="index1.html">Home</a>
+            <a href="login.php">Login</a>
+            <a href="reviews.php">Review</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    </header>
+ 
     <div class="login-box">
     <img src="asset/avatar.png" class="avatar">
+    <h1> REGISTER </h1>
 
 
             <form method="POST" action="includes/user.inc.php">
@@ -25,7 +33,7 @@
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password" required="">
 <p>First name:</p>
-<input type="text" name="firstName" placeholder="first Name" required="">
+<input type="text" name="firstName" placeholder="First Name" required="">
             <p>Last Name:</p>
 
 <input type="text" name="LastName" placeholder="Last Name" required="">

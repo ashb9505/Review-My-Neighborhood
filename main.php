@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if($_SERVER["REQUEST_METHOD"] == "POST") {
   
 
@@ -37,7 +39,7 @@ $address = $_POST['search'];
 $zipcode = getZipcode($address);
 if($zipcode){
 
-    header("Location: http://localhost/project/reviews.php?zipcode=$zipcode");
+    header("Location:reviews.php?zipcode=$zipcode");
     // print("Zip Code: " . $zipcode); 
 }
 else{

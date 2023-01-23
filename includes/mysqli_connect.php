@@ -1,10 +1,10 @@
 <?php
 
 //Set database connection information
-define('DB_HOST', 'localhost'); //Or could be a different server
-define('DB_USER', 'root'); //MySQL credentials
-define('DB_PASSWORD', ''); //MySQL credentials
-define('DB_NAME', 'abakar'); //Specific database
+define('DB_HOST', 'csdb.brockport.edu'); //Or could be a different server
+define('DB_USER', 'iabak1'); //MySQL credentials
+define('DB_PASSWORD', '_fal22_0'); //MySQL credentials
+define('DB_NAME', 'fal22_cis442_iabak1'); //Specific database
 define('port', '3308');
 
 //Database connection
